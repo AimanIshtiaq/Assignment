@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center; /* Center the heading */
+}
+
+section {
+    background-color: lightgray;
+    width: 460px;
+    height: 150px;
+    margin: 20px auto; /* Center the sections horizontally */
+    border: 1px solid;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 60px;
+    position: relative; /* Enable positioning */
+}
+
+
+#title1 {
+			background-color: lightpink;
+            position: absolute;
+            top: 121px;
+            left: 380px;
+            width:100px ;
+			height:30px;
+			margin: 6px;
+			border: 1px solid;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			padding-right: 30px;
+			padding-left: 20px;
+
+
+		}
+
+		#title2 {
+            background-color: yellow;
+            width:90px ;
+			height:10px;
+			position: absolute;
+            top: 121px;
+            left: 885px;
+            width:100px ;
+			height:30px;
+			margin: 6px;
+			border: 1px solid;
+            padding: 5px 20px 10px 35px;
+
+			
+		}
+		#title3 {
+            background-color: lightskyblue;
+			  width:90px ;
+			height:30px;
+			position: absolute;
+              top: 121px;
+              left: 1391px;
+            width:100px ;
+			height:30px;
+			margin: 6px;
+			border: 1px solid;
+			padding: 5px 20px 10px 35px;
+
+		}
+
+
+/* Desktop View (992px and above) */
+@media (min-width: 992px) {
+    section {
+        width: 30%; /* Each section takes up 30% of the screen width */
+        margin: 20px; /* Adjust margin for equal spacing */
+        float: left;
+    }
+}
+
+/* Tablet View (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #section1, #section2 {
+        width: 50%; /* First two sections take up half of the screen width */
+        float: left;
+    }
+    #section3 {
+        width: 100%; /* Third section takes up the entire row */
+        clear: both; /* Clear the float to move the third section below */
+    }
+}
+
+/* Mobile View (767px and below) */
+@media (max-width: 767px) {
+    section {
+        width: 100%; /* Each section takes up the entire row */
+        float: none; /* Clear any previous float */
+    }
+}
