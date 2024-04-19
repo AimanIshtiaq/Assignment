@@ -1,0 +1,64 @@
+body {
+    background-color:skyblue ;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#header-nav {
+	background-color:#02055A;
+	border-radius: 0;
+	border: 0;
+	height: 150px;
+}
+#logo-img {
+background: url('img/food-logo.jpg') no-repeat;
+background-size: contain;
+background-position: center;
+width: 150px;
+height: 150px;
+ }
+ .navbar-brand{
+ 	padding-top: 25px;
+ }
+ .navbar-brand h1{
+ 	font-family: 'Lora',serif;
+ 	color: white;
+ 	font-size: 1.5em;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	line-height: .75;
+ 	text-shadow: 1px 1px 1px #222;
+    text-align: left;
+ }
+ .navbar-brand a{
+ 	 	text-decoration: none;
+
+ }
+ #nav-list{
+ 	margin-top: 10px;
+
+ }
+
+ #nav-list a{
+ 	color: white;
+ 	text-align: center;
+ }
+  #nav-list a:hover{
+  	background: skyblue;
+  }
+ #nav-list a span{
+font-size: 1.8em;
+ }
+.collapse navbar-collapse {
+	background-color: blue;
+}
+.navbar-header button.navbar-toogle, .navbar-header .icon-bar{
+	border: 1px solid white;
+}
+.navbar-header button.navbar-toogle{
+	clear: both;
+}
+#home-tiles h1, h2{
+	color: #02055A;
+	font-weight: bold;
+}
